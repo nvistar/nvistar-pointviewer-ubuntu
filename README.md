@@ -4,7 +4,7 @@
 The nvistar lidar is a USB device, which can be directly inserted into the computer for use. WINDOWS 10 can be installed without driver. Other systems may require the driver.eg WINDOWS 7
 To install the driver software. The serialport identification content is as follows:
 
-![image]()
+![image](https://github.com/nvistar/nvistar-pointviewer-ubuntu/raw/master/image/comm_show.png)
 
 If the recognition error, you need to download the virtual [serialport driver](https://github.com/nvistar/nvistar-lidar-tools/blob/master/virtual%20com%20driver/VirtualCOM_DriverInstall.exe) on the website
 
@@ -14,7 +14,7 @@ By default, it is UDP communication, port 8100.
 The IP address, gateway and subnet mask can also be modified by this client, which will be explained in detail later. The communication interface is TCP protocol, port 8200.
 If you use serial communication, you can ping the IP address first, and if it is normal, you can receive a ping answer.
 
-![image]()
+![image](https://github.com/nvistar/nvistar-pointviewer-ubuntu/raw/master/image/ping_show.png)
 
 ## Software use and instructions
 
@@ -22,17 +22,17 @@ If you use serial communication, you can ping the IP address first, and if it is
 
 After opening the software, it will open normally, the interface is shown below:
 
-![image]()
-![image]()
+![image](https://github.com/nvistar/nvistar-pointviewer-ubuntu/raw/master/image/soft_show_1.png)
+![image](https://github.com/nvistar/nvistar-pointviewer-ubuntu/raw/master/image/soft_show_2.png)
 
 ### Parameter Configuration
 
-![image]()
+![image](https://github.com/nvistar/nvistar-pointviewer-ubuntu/raw/master/image/soft_show_3.png)
 
 As shown above, the radar information can be configured, mainly the speed, sampling rate and trailing intensity information can be configured. The same can be selected
 Whether with signal quality information.
 
-![image]()
+![image](https://github.com/nvistar/nvistar-pointviewer-ubuntu/raw/master/image/soft_show_4.png)
 
 As shown above, you can configure the network parameters, i.e. IP address, gateway, subnet mask, etc. After saving, restart the network adapter to take effect
 
@@ -40,7 +40,7 @@ As shown above, you can configure the network parameters, i.e. IP address, gatew
 
 Click the 'Run' button, and you can use the radar map normally.
 
-![image]()
+![image](https://github.com/nvistar/nvistar-pointviewer-ubuntu/raw/master/image/soft_show_5.png)
 
 
 ### Shortcut Operation
